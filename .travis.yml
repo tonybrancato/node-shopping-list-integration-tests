@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy: secure-forest-97808
+  provider: heroku
+  api_key:
+    secure: TTAVEy0SazQx7gWLeA6jNhEwhpzNCfqk4JgLSz4YLUB0/76ZcNm5QOszEc2qqwmgMNb3pxatVVcjHB1MFzXD/Lu5xWJYG7Qfr0JD9mjELRfAlVxliqf0B8NaRtRrM+edC3+0fbRGO1zcUsEgPkZfrOHKLmQmmhuGDLiXDw5azPd4ujayORSJDqXIrOehb9+xvt74Ll4xy3HOtD5gZ6Hw2c/iDwVeuUEQcmW47mqE9UssqrOxhpfxETBxp1MqmCgeEAi/f5tYem6blyYKM7GGg8jwGMq12GAt3/Us3Z3BpwWyQ1F/qToDwAZS0QUW0hwYm5nrnHdkqTQmL8yuQoBbrlYM4cr3NoESzjgGDKnXMh4Y5sOnAS+5T1d5KfRB/0+0pbL9wHmhMGk/aeJdxGidA1KF8hMSLJvgMB/rOVUGnEXXk8qfjAJWs4SDALqIQdLbzas8ve2mIrI0OmReBiaobEaU3oq/C9CaXXfJlwRkSHv2BTv4oJxLXfT03Pg20wEonl0vyOx9bFsf9F0vnm9cnUaaPUQvBvIJ1ziHBU5O4XG0yG8EO573277ke+eXNSiEFoBmcrSK4sldMV+hUvZ5i+jnYMgtzx2UK/3w4NAxPsn38lJ5wkLYWBpX4eLMRWGn99nyrijVYwbRbwxd5gzA/6kU7CzmZt0Stxz6pWh5T0o=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: tonybrancato/node-shopping-list-integration-tests
+    branch: recipes
